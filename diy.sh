@@ -18,5 +18,5 @@ cp -r lede/package/lean/luci-app-cifs-mount openwrt/package/lean/luci-app-cifs-m
 # Install ttyd
 cp -r lede/package/lean/luci-app-ttyd openwrt/package/lean/luci-app-ttyd
 # Install OpenClash
-git clone https://github.com/vernesong/OpenClash.git OpenClash
+git clone -b master https://github.com/vernesong/OpenClash.git OpenClash
 cp -r OpenClash/luci-app-openclash openwrt/package/lean/luci-app-openclash
